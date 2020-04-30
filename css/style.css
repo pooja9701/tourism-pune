@@ -1,0 +1,303 @@
+/*CSS for Menu Bar on Home*/
+.menu2 {padding:0 0 0 1em; margin-left: auto; margin-right: auto; margin-top: 10px; list-style:none; height:35px; position:relative; background:#fff url(../images/button1.gif); position:relative; border:1px solid #000; border-width:0 1px; border-bottom:1px solid #444;}
+.menu2 li {float:left;}
+.menu2 li a {display:block; float:left; height:35px; line-height:35px; color:#aaa; text-decoration:none; font-size:13px; font-family:arial, verdana, sans-serif; font-weight:bold; text-align:center; padding:0 0 0 30px; cursor:pointer;}
+.menu2 li a b {float:left; display:block; padding:0 16px 0 8px;}
+.menu2 li.current a {color:#fff; background:url(../images/button3.gif);}
+.menu2 li.current a b {background:url(../images/button3.gif) no-repeat right top;}
+.menu2 li a:hover {color:#fff; background:#000 url(../images/button4.gif);}
+.menu2 li a:hover b {background:url(../images/button4.gif) no-repeat right top;}
+.menu2 li.current a:hover {color:#fff; background:#000 url(../images/button3.gif); cursor:default;}
+.menu2 li.current a:hover b {background:url(../images/button3.gif) no-repeat right top;}
+
+/*CSS for Menu Bar on all pages except Home*/
+.menu3 {padding:0 0 0 1em; margin-left: auto; margin-right: auto; list-style:none; height:35px; position:relative; background:#fff url(../images/button1.gif); position:relative; border:1px solid #000; border-width:0 1px; border-bottom:1px solid #444;}
+.menu3 li {float:left;}
+.menu3 li a {display:block; float:left; height:35px; line-height:35px; color:#aaa; text-decoration:none; font-size:13px; font-family:arial, verdana, sans-serif; font-weight:bold; text-align:center; padding:0 0 0 30px; cursor:pointer;}
+.menu3 li a b {float:left; display:block; padding:0 16px 0 8px;}
+.menu3 li.current a {color:#fff; background:url(../images/button3.gif);}
+.menu3 li.current a b {background:url(../images/button3.gif) no-repeat right top;}
+.menu3 li a:hover {color:#fff; background:#000 url(../images/button4.gif);}
+.menu3 li a:hover b {background:url(../images/button4.gif) no-repeat right top;}
+.menu3 li.current a:hover {color:#fff; background:#000 url(../images/button3.gif); cursor:default;}
+.menu3 li.current a:hover b {background:url(../images/button3.gif) no-repeat right top;}
+
+/*CSS for marquee text on home page*/
+.welcome {padding:0 0 0 1em; margin-top:10px; height:10px; position:relative; text-decoration:none; font-size:18px; color: #00CCFF; font-family:arial, verdana, sans-serif; font-weight:bold;}
+
+/*CSS for Description text on home page*/
+.description {
+  column-count: 3;
+  column-gap: 40px;
+  padding: 20px;
+  column-rule: 1.5px solid lightblue;
+}
+
+
+
+/*CSS for Body on all page*/
+body {
+  	color:#555555;
+	font-size:13px;
+	background: #eeeeee;
+	font-family:Arial, Helvetica, sans-serif;
+	width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+a {
+	color: #0099CC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00CCFF;
+}
+
+a img {
+  border: none;/*remove border for linked images*/
+}
+
+h1{
+	font-size:24px;
+	font-weight:bold;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+}
+
+h2{
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	font-size:15px;
+	font-weight:normal;
+	letter-spacing:1px;
+	padding-left:2px;
+	
+	margin-top:4px;
+	color:#888888;
+}
+
+h3{
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	font-size:15px;
+	font-weight:normal;
+	letter-spacing:1px;
+	padding-left:2px;
+	
+	margin-top:4px;
+	color:#888888;
+}
+
+/*CSS for Image slide show on Home*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1300px;
+  min-width: 1300px; 
+  max-height: 300px;
+  min-height: 300px;  
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container-photo {
+  max-width: 1100px;
+  min-width: 1100px; 
+  max-height: 700px;
+  min-height: 700px;  
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Slideshow Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Slideshow Number text (1/3 etc) */
+.numbertext {
+  color: #999999;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 2px;
+  font-weight: bold;
+}
+
+/* Slideshow The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Slideshow Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*CSS for footer on all page*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 30px;
+   background-color: #272727;
+   color: #999999;
+   text-align: center;
+   z-index: 999;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #272727;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #717171;
+}
+
+.container_contactus {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 45px;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+
+
+}
+
+
+
+
+.left_c {
+  left: 0;
+  background-color: #f2f2f2;
+}
+
+.right_c{
+  right: 0;
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+.mapouter
+{
+  max-width: 1200px;
+  min-width: 1200px; 
+  max-height: 550px;
+  min-height: 550px;  
+  position: relative;
+  margin: auto;
+  text-align:right;
+  }
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* ======================Photo/Gallery CSS========================================== */
+
+/* ======================Photo/Gallery CSS========================================== */

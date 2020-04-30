@@ -1,0 +1,40 @@
+<html>
+
+<head>
+	<title>PUNE TOURISM</title>
+	<!-- stylesheets -->
+  	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+  	<link rel="stylesheet" href="css/slide.css" type="text/css" media="screen" />
+</head>
+
+<body>
+
+
+<ul class="menu3">
+<li><a href="home.html"><b>Home</b></a></li>
+<li><a href="visit.html"><b>Places To Visit</b></a></li>
+<li><a href="photo.html"><b>Photos</b></a></li>
+<li><a href="reach.html"><b>Best Time To Visit</b></a></li>
+<li><a href="contact.html"><b>Contact us</b></a></li>
+<li><a href="search.html"><b>Search</b></a></li>
+</ul>
+
+<div class="mapouter" id="d"></div>
+
+
+<script type="text/javascript">	
+if (window.navigator.onLine) 
+{
+d.innerHTML = '<iframe width="1200" height="550px" src="https://maps.google.com/maps?q=Pune%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>';
+} 
+else 
+{
+d.innerHTML = '<iframe width="1200" height="550px" src="images/map_background.jpg" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>'; 
+}
+</script>
+
+<div class="footer">
+  <p><b>Copyright © 2020 Pimpri Chinchwad College of Engineering (Department of MCA)</b></p>
+</div>
+</body>
+</html>
