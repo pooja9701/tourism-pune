@@ -1,2 +1,5 @@
 ## Added website to show master branch
-http://punemagic.esy.es/
+https://purepune.herokuapp.com/home.html
+
+## Use this repo push and pull request
+https://github.com/hipk/tourism-pune.git
