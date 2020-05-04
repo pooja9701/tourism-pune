@@ -1,2 +1,2 @@
-# tourism-pune
-https://purepune.herokuapp.com/home.html
+## Added website to show master branch
+http://punemagic.esy.es/
