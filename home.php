@@ -36,7 +36,7 @@ $(document).ready(function(){
 	<div id="panel">
 		<div class="content clearfix">
 			<div class="left">
-				<h1>Pune Tourism</h1>
+				<h1>Pune Tourism Test</h1>
 				<h2> Lets begin your journey with us. </h2>		
 				<p class="grey">You are free to use this login and registration system, this will going to help you in case of any emergency</p>
 				<h2> Acclaim </h2>
